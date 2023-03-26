@@ -1,0 +1,22 @@
+#hinter {
+    overflow-wrap: break-word;
+    background: #f7da21;
+    padding: 2px;
+}
+#show-hinter-button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+#hinter .hints {
+    border: 1px solid black;
+    margin-top: 2px
+}

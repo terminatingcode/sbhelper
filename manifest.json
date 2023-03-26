@@ -1,0 +1,19 @@
+{
+  "description": "Adds hint info and word totals to NYT Spelling Bee",
+  "manifest_version": 3,
+  "name": "sbhelper",
+  "version": "1.0",
+  "author": "Sarah Connor",
+  "homepage_url": "https://github.com/terminatingcode/sbhelper",
+  "icons": {
+    "48": "icons/sbhelper.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.nytimes.com/puzzles/spelling-bee*"],
+      "js": ["hinter.js"],
+      "css": ["hinter.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
